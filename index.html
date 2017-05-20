@@ -1,0 +1,379 @@
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<Title>Irvin's Homepage</Title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<STYLE type=text/css media=all>
+
+.topnav {
+	overflow: hidden;
+	background-color: maroon
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: White;
+    color: maroon;
+}
+.logo {
+	float: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    margin-top: 2px;    /* if you want it vertically middle of the navbar. */
+}
+
+html{
+	font-family: "Avenir Next", Helevetica, sans-serif;
+	font-size: 1.0em;
+	text-align: center;
+}
+
+BODY {
+	FONT-SIZE: 0.9em; BACKGROUND: url(http://hhsvoyager.org/wp-content/uploads/2016/10/csun.jpg); color: black; FONT-FAMILY: "Trebuchet ms",Arial,Helvetica,sans-serif; TEXT-ALIGN: left; background-position: center; zoom: 1.15; background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100%;
+}
+
+H0 {
+	FONT-SIZE: 3.0em; MARGIN: 0px; color: maroon; font-family: 'Helvetica Neue', sans-serif; TEXT-ALIGN: left
+}
+H1 {
+	FONT-SIZE: 1.2em; MARGIN: 0px; color: maroon; font-family: 'Helvetica Neue', sans-serif; TEXT-ALIGN: right
+}
+H2 {
+	FONT-SIZE: 1.2em; MARGIN: 0px; color: maroon; font-family: 'Helvetica Neue', sans-serif; TEXT-ALIGN: left
+}
+H3 {
+	BORDER-TOP: #999 2px solid; BORDER-RIGHT: #999 2px solid; BORDER-BOTTOM: #999 2px solid; BORDER-LEFT: #999 2px solid; BACKGROUND-COLOR: #ffe; FLOAT: Left; FONT-FAMILY: "Trebuchet ms",Arial,Helvetica,sans-serif;FONT-SIZE: 0.9em; COLOR: #666; PADDING-TOP: 4px; PADDING-RIGHT: 4px; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; TEXT-ALIGN: left
+}
+H4 {
+	FONT-SIZE: 0.9em; MARGIN: 2px; COLOR: #000; FONT-FAMILY: "Trebuchet ms",Arial,Helvetica,sans-serif; BORDER-TOP: #999 1px dashed; PADDING-TOP: 4px; PADDING-RIGHT: 4px; PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; TEXT-ALIGN: center
+}
+
+H5, H6 {
+	font-weight: 300; text-align: center; font-size: 1.0em;
+}
+#AnnoucementContainer {
+	position:absolute; color: maroon; MARGIN: 10px auto; WIDTH: 600px;border: 0px solid #FFF; TEXT-ALIGN: left; PADDING: 2px; LEFT:290px; TOP:480px; *TOP:460px 
+}
+html{
+	font-family: "Avenir Next", Helevetica, sans-serif;
+	text-align: center;
+}
+
+#MenuContainerL1	{
+	position:absolute;width:150px;height:220px; padding: 8px; FONT-SIZE: 1em; BACKGROUND-COLOR: #D3D3D3;FONT-FAMILY: "Trebuchet ms",Arial,Helvetica,sans-serif; Text-ALIGN : LEFT; border: 2px solid #222; -moz-border-radius: 8px; border-radius: 8px; Z-INDEX: 1; LEFT:100px; TOP:110px
+}
+#MapContainer	{
+	position:absolute;width:500px;height:350px; padding: 2px; FONT-SIZE: 1em; BACKGROUND-COLOR: #D3D3D3 ;FONT-FAMILY:"Trebuchet ms",Arial,Helvetica,sans-serif; Text-ALIGN : LEFT; border: 2px solid #222; -moz-border-radius: 8px; border-radius:8px; Z-INDEX: 1; LEFT:275px; *LEFT:365px; TOP:110px
+}
+#WeatherContainer	{
+	position:absolute;width:180px;height:490px; padding: 8px; FONT-SIZE: 1em; BACKGROUND-COLOR: #D3D3D3;FONT-FAMILY: "Trebuchet ms",Arial,Helvetica,sans-serif; Text-ALIGN : LEFT; border: 2px solid #222; -moz-border-radius: 8px; border-radius: 8px; Z-INDEX: 1; LEFT:788px; TOP:110px
+}
+#MenuContainerL4	{
+	position:absolute;width:150px;height:250px; padding: 8px; FONT-SIZE: 1em; BACKGROUND-COLOR: #D3D3D3;FONT-FAMILY: "Trebuchet ms",Arial,Helvetica,sans-serif; Text-ALIGN : LEFT; border: 2px solid #222; -moz-border-radius: 8px; border-radius: 8px; Z-INDEX: 1; LEFT:100px; TOP:355px; *TOP:310px
+}
+#SubMenuContainer1	{
+	left:210px;padding:2px;FONT-SIZE: 1em; FONT-FAMILY: "Trebuchet ms",Arial,Helvetica,sans-serif; Text-ALIGN: Left
+}
+#MinMaxContainer	{
+	position:absolute;left:230px;*left:220px;padding:2px;FONT-SIZE: 1em; FONT-FAMILY: "Trebuchet ms",Arial,Helvetica,sans-serif; Text-ALIGN: Left;border:0px solid;Z-INDEX: 2;
+}
+#Preview{
+	position:absolute;border:1px solid #ccc;background:#333;padding:5px;display:none;color:#fff;Z-INDEX: 2;
+}
+
+#map {
+	height: 100%;
+}
+
+.csun{
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: 100% 200px
+}
+
+.box{
+    background-color:pink;
+    width: 150px;
+   }
+
+.btnred{
+    width:150px;
+    background-color:black;
+    color:white;
+}
+
+.btnwhite {
+    
+ 	color:white;
+    width:30px;
+    background-color:maroon;
+    margin-right:4px;
+}
+
+.btnblack {
+   
+    color:black;
+    width:50px;
+    
+}
+</STYLE>
+
+<!-- Calculator -->
+<script type="text/javascript">
+	function c(val)
+                {
+                    document.getElementById("d").value=val;
+                }
+            function math(val)
+            {
+                document.getElementById("d").value+=val;
+            }
+            function e()
+            {
+                try
+                {
+                    c(eval(document.getElementById("d").value))
+                }
+                catch(e)
+                {
+                    c('Error')
+                }
+            }
+
+</script>
+
+<!-- Google Map -->
+<script>
+      // Note: This example requires that you consent to location sharing when
+      // prompted by your browser. If you see the error "The Geolocation service
+      // failed.", it means you probably did not give permission for the browser to
+      // locate you.
+      var map, infoWindow;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 15
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('Location found.');
+            infoWindow.open(map);
+            map.setCenter(pos);
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+      }
+
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map);
+      }
+    </script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBg2bg1Ax3PiBozy60F3X4u8T4yrsNXfFo&callback=initMap">
+    </script>
+<!-- End Google Map -->	
+
+<!-- Yahoo calendar API -->
+<!-- Combo-handled YUI CSS files: --> 
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?2.6.0/build/calendar/assets/skins/sam/calendar.css"> 
+<!-- Combo-handled YUI JS files: --> 
+<script type="text/javascript" src="http://yui.yahooapis.com/combo?2.6.0/build/yahoo-dom-event/yahoo-dom-event.js&2.6.0/build/calendar/calendar-min.js"></script> 
+
+<script>
+ 			
+	var dte = new Date();
+	var evtdates = "5/17/2017,5/18/2017"
+	var evtdate = new Array("5/17/2017", "5/18/2017"); //insert evt dates here
+	var evtdesc = new Array("Comp 310 Final @ 9:30 & Comp 484 Final @ 12:15","Comp 496 Final @ 8 & Mus 306 Final @ 12:45") //insert evt desc here
+	
+	function mySelectedEvts(ev,args) {
+		var d = args[0][0];
+		var selDate = d[1] + '/' + d[2] + '/' + d[0];
+			
+		for(var x=0; x<evtdate.length; x++){
+				
+			if (selDate == evtdate[x]) {
+
+	               		alert("Event: " + evtdesc[x] + "\r\nDate: " +  d[1] + "/" + d[2] + "/" + d[0]); }
+			else{
+				//This will re-render the calendar so user unable 2 select other dates
+				YAHOO.example.calendar.cal1.cfg.setProperty("selected",evtdates,false); //insert evt dates here separated by commas
+				YAHOO.example.calendar.cal1.render();
+			} //else
+		} //for
+        }//function
+
+	function myDeSelectedEvts(ev,args) {
+		
+		//This will re-render the calendar so user unable 2 select other dates
+		YAHOO.example.calendar.cal1.cfg.setProperty("selected",evtdates,false); //insert evt dates here separate by commas
+		YAHOO.example.calendar.cal1.render();
+			
+	}
+
+	YAHOO.namespace("example.calendar");
+	YAHOO.example.calendar.init = function() {
+		YAHOO.example.calendar.cal1 = new YAHOO.widget.Calendar("cal1","cal1Container", {selected:evtdates});	
+		YAHOO.example.calendar.cal1.cfg.setProperty("pagedate", (dte.getMonth() + 1) + "/" + dte.getFullYear());
+ 		YAHOO.example.calendar.cal1.selectEvent.subscribe(mySelectedEvts,YAHOO.example.calendar.cal1, true);
+		YAHOO.example.calendar.cal1.deselectEvent.subscribe(myDeSelectedEvts,YAHOO.example.calendar.cal1, true);
+		YAHOO.example.calendar.cal1.render();
+	}
+	
+	YAHOO.util.Event.onDOMReady(YAHOO.example.calendar.init);
+
+	
+</script>
+<!-- End Yahoo Calendar API -->
+
+<!--HTML BODY-->
+<Body>
+
+<nav class="topnav">
+  <img class="logo" src="logo.png">
+  <a class="active" href="index.html">Irvin's Homepage</a>
+  <a href="projects.html">Projects</a>
+  <a href="Contact.html">Contact</a>
+  <a href="about.html">About Me</a>
+</nav>
+
+<script type="text/javascript">
+	var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+	var d = new Date();
+	d.setDate(d.getDate());
+	var curr_day = d.getDay();
+	document.write('<H1>Todays Date: '+ days[curr_day] + ", " + d.toLocaleDateString() + '</H1>');
+	document.write('<H1>Time: ' + d.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + '</H1>');
+
+</script>
+
+<!-- Insert Announcements here -->
+<DIV id=AnnoucementContainer>
+<h2>Announcements:</h2>
+Spring 2017 Finals:
+<ol>
+	<li>Comp 310: May 17 @ 9:30 am
+	<li>Comp 484: May 17 @ 12:15 pm
+	<li>Comp 496: May 18 @ 8:00 am
+	<li>Mus 306: May 18 @ 12:45 pm
+</ol>
+</DIV>
+<!-- End Announcements -->
+<!-- Holds Bookmarks -->
+<DIV id=MenuContainerL1>
+<H2>Bookmarked Websites: </H2>
+<H4></H4>
+<ol id="bookmarks">
+	<li><a href="https://www.linkedin.com/in/irvin-alo-6b9943ab/" 				target="_blank" title="My LinkedIn">LinkedIn</a><br> 
+	<li><a href="http://moodle.csun.edu/" 				target="_blank" title="CSUN Moodle">Moodle</a><br>
+	<li><a href="https://canvas.csun.edu/" 				target="_blank" title="CSUN Canvas">Canvas</a><br>
+	<li><a href="http://www.csun.edu/mynorthridge" 		target="_blank" title="CSUN Portal">Portal</a><br>
+	<li><a href="http://mail.yahoo.com" 				target="_blank" title="Yahoo Mail">Yahoo Mail</a><br>
+	<li><a href="http://www.google.com/" 				target="_blank" title="Google">Google</a><br>
+	<li><a href="http://soundcloud.com/" 				target="_blank" title="SoundCloud">SoundCloud</a><br>
+	<li><a href="http://www.nba.com/lakers/?tmd=1"         target="_blank" title="Lakers">Lakers.com</a><br>
+</ol>
+</DIV>
+
+<!--Calculator-->
+<DIV id=MenuContainerL4>
+<H2>Calculator:</H2>
+	
+<H4></H4>
+<div class="box">
+<div class="display"><input type="text" readonly id="d">  </div>
+<input type="button" class="btnred" value="C" onclick='c("")'>
+<input type="button" class="btnwhite" value="+" onclick='math("+")'>
+                       <input type="button" class="btnwhite" value="-" onclick='math("-")'>                           
+                       <input type="button" class="btnwhite" value="/" onclick='math("/")'>
+                               <input type="button" class="btnwhite" value="x" onclick='math("*")'>
+                            
+                            
+
+
+<input type="button" class="btnwhite" value="0" onclick='math("0")'>
+<input type="button" class="btnwhite" value="1" onclick='math("1")'>
+<input type="button" class="btnwhite" value="2" onclick='math("2")'>
+<input type="button" class="btnwhite" value="3" onclick='math("3")'>
+<input type="button" class="btnwhite" value="4" onclick='math("4")'>
+<input type="button" class="btnwhite" value="5" onclick='math("5")'>
+<input type="button" class="btnwhite" value="6" onclick='math("6")'>
+<input type="button" class="btnwhite" value="7" onclick='math("7")'>
+<input type="button" class="btnwhite" value="8" onclick='math("8")'>
+<input type="button" class="btnwhite" value="9" onclick='math("9")'>
+<input type="button" class="btnwhite" value="." onclick='math(".")'>
+<input type="button" class="btnwhite" value="=" onclick='e()'>
+</body>
+</div>
+<H4></H4>
+</DIV>
+
+<!-- Holds Google Map -->
+<DIV id=MapContainer>
+<div id="map" style="width: 500px; height: 350px" title="Map"></div>
+
+</DIV>
+
+<!-- Holds Weather and Yahoo Calendar-->
+<DIV id=WeatherContainer>
+<H2>Weather in Your Area: </H2>
+<H4></H4>
+<H5><div id="temp"></div><div id="minutely"></div></H5>
+<H6><div id="location"></div></H6>
+<H4></H4>
+
+
+<!-- Yahoo calendar to display upcoming events -->
+<div id="cal1Container" class="yui-skin-sam"></div>
+</DIV>
+
+</Body>
+
+<!-- Loads last to speedup page load -->
+<script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yuiloader/yuiloader-min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/alert.js"></script>
+
+<script src="js/jquery.js" type="text/javascript"></script>
+
+
+<script src="js/weather.js"></script>
+
+</html>
